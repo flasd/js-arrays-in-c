@@ -3,7 +3,7 @@ js-like arrays in C implemented using linked-lists with ability to use functions
 
 ## To Do's
 - [ ] Write tests.
-- [ ] Write build script.
+- [x] Write build script.
 - [ ] Write docs.
 - [ ] Hunt down memory leaks.
 
