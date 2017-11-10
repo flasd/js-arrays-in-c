@@ -1,0 +1,27 @@
+{
+  "name": "js-arrays-in-c",
+  "version": "0.0.1-alpha",
+  "description": "Implementation of Js Array in C using linked lists.",
+  "main": "./dist/array.h",
+  "scripts": {
+    "pretest": "npm run posttest --quiet && mkdir ./temp/ && touch temp/test",
+    "test": "gcc -o ./temp/test src/_main.test.c src/acessors.c src/array.c src/iterators.c src/mutators.c && ./temp/test",
+    "posttest": "rm -rf ./temp/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flasd/js-arrays-in-c.git"
+  },
+  "keywords": [
+    "c",
+    "linked-list",
+    "array",
+    "js"
+  ],
+  "author": "Marcel Coelho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flasd/js-arrays-in-c/issues"
+  },
+  "homepage": "https://github.com/flasd/js-arrays-in-c#readme"
+}
